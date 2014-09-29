@@ -1,0 +1,28 @@
+module_cek_istri{
+  var umur
+  var tinggi
+  var berat
+  var pintar
+  var kaya
+  
+  var status = 0
+  var hasil = 0
+  
+  if (umur > 20){
+    status = status + 1
+  }else if (tinggi > 160){
+    status = status + 1  
+  }else if (berat > 45){
+    status = status + 1
+  }else if (pintar > 2,5){
+    status = status + 1  
+  }else if (kaya > 4000000){
+    status = status + 1  
+  }
+  
+  if (status < 5){
+    print "tidak dapat diterima"
+  }else{
+    print "dapat diterima"
+  }
+}
